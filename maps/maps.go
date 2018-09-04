@@ -5,6 +5,9 @@ import (
 	"github.com/web-like/devlib/structs"
 )
 
+type maps struct {
+}
+
 // 获取两个相同结构的map的值的异同  以第一个参数为基准
 func Diff(old interface{}, new interface{}) (map[string]string, []string) {
 
